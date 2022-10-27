@@ -52,6 +52,4 @@ namespace PokemonApp{
             return this.name + " " + this.type;
         }
     }
-
-
 }
