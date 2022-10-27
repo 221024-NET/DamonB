@@ -10,6 +10,7 @@ namespace Program{
             //Initializing an object
             //We call the constructor, and pass it the desired values for this object
             Pokemon pikachu = new Pokemon("Pikachu", 25, "Electric", 12, "Static");
+            Pokemon charmander = new Pokemon("Charmander", 4, "Fire", 10, "Blaze");
 
             //Calling an Instance method - belongs to the object itself.
             //Called by using object.method() 
@@ -28,9 +29,11 @@ namespace Program{
             // Console.WriteLine(pikachu.name);
 
             Trainer Bob = new Trainer("Bob", 20);
+            Bob.trainerInfo();
 
             Bob.catchPokemon(pikachu);
-            
+            Bob.catchPokemon(charmander);
+
             Bob.viewPokemon();
 
         }

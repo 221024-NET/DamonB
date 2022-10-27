@@ -49,7 +49,7 @@ namespace PokemonApp{
 
         //Method Overriding - ToString()
         public override string ToString(){
-            return this.name + " " + this.type;
+            return this.name + ", " + this.type;
         }
     }
 }
